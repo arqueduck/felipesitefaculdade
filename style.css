@@ -101,7 +101,10 @@ p.right{
 }
 
 div.form{
-    height: 100%;
+    width: 100%;
+    margin: auto;
+    margin-left: 200px;
+    margin-right: 200px;
     display: flex;
     background-color: rgba(252, 175, 34, 0.493);
 }
@@ -114,7 +117,7 @@ div.top{
 table{
     flex-wrap: wrap;
     padding: 10px;
-    margin: 10px;
+    margin: auto;
     text-align: center;
     font-size: larger;
 }
