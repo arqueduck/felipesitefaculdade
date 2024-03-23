@@ -103,8 +103,8 @@ p.right{
 div.form{
     width: 100%;
     margin: auto;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 20%;
+    margin-right: 20%;
     display: flex;
     background-color: rgba(252, 175, 34, 0.493);
 }
