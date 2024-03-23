@@ -30,9 +30,11 @@
 
     <!-- Abertura da section para separar o conteúdo do header da section -->
     <section>
-        <h1>Gostaria de entrar em contato para uma criação de site? É só me acessar pelos canais abaixo:</h1>
-        <p><b>E-mail:</b>arqueduck@mail.com</p>
-        <p><b>Discord:</b>arqueduck</p>
+        <div class="top">
+            <h1>Gostaria de entrar em contato para uma criação de site? É só me acessar pelos canais abaixo:</h1>
+        </div>
+        <p><b>E-mail:</b> arqueduck@mail.com</p>
+        <p><b>Discord:</b> arqueduck</p>
         <div class="form">
             <!-- Parágrafo e tabela com "flex" para ocuparem um espaço proporcional na tela -->
             <p style="flex: 2;">Ou entre em contato pelo formulário ao lado:</p>
@@ -40,15 +42,15 @@
             <table style="flex: 3;">
                 <tr>
                     <th><label for="nome">Nome:</label></th>
-                    <td><input type="text" name="nome" id="nome"></td>
+                    <td><input type="text" name="nome" id="nome" style="width: 75%;"></td>
                 </tr>
                 <tr>
                     <th><label for="email">E-mail:</label></th>
-                    <td><input type="text" name="email" id="email"></td>
+                    <td><input type="text" name="email" id="email" style="width: 75%;"></td>
                 </tr>
                 <tr>
                     <th><label for="mensagem">Digite aqui sua mensagem:</label></th>
-                    <td><textarea name="mensagem" id="mensagem" cols="30" rows="5"></textarea></td>
+                    <td><textarea name="mensagem" id="mensagem" cols="70" rows="5"></textarea></td>
                 </tr>
                 <tr>
                     <th></th>
