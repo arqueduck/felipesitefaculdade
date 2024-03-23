@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arqueman - Contato</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body class="background">
+
+    <!-- Menu com os links para outras páginas-->
+    <header> 
+        <a class="menu" href="index.html">
+            SOBRE MIM
+        </a>
+        <a class="menu" href="graduation.html">
+            FORMAÇÃO
+        </a>
+        <a class="menu" href="portfolio.html">
+            PORTFOLIO
+        </a>
+        <!-- Menu com estilização para o usuário saber em qual seção está -->
+        <a class="menu" href="contact.html" style="background-color: rgb(133, 112, 57); color: aliceblue; transform: scale(1.09);"> 
+            CONTATO
+        </a>
+    </header>
+
+    <!-- Abertura da section para separar o conteúdo do header da section -->
+    <section>
+        <h1>Gostaria de entrar em contato para uma criação de site? É só me acessar pelos canais abaixo:</h1>
+        <p><b>E-mail:</b>arqueduck@mail.com</p>
+        <p><b>Discord:</b>arqueduck</p>
+        <div class="form">
+            <!-- Parágrafo e tabela com "flex" para ocuparem um espaço proporcional na tela -->
+            <p style="flex: 2;">Ou entre em contato pelo formulário ao lado:</p>
+            <!-- Abertura do formulário -->
+            <table style="flex: 3;">
+                <tr>
+                    <th><label for="nome">Nome:</label></th>
+                    <td><input type="text" name="nome" id="nome"></td>
+                </tr>
+                <tr>
+                    <th><label for="email">E-mail:</label></th>
+                    <td><input type="text" name="email" id="email"></td>
+                </tr>
+                <tr>
+                    <th><label for="mensagem">Digite aqui sua mensagem:</label></th>
+                    <td><textarea name="mensagem" id="mensagem" cols="30" rows="5"></textarea></td>
+                </tr>
+                <tr>
+                    <th></th>
+                    <td><button>Enviar!</button></td>
+                </tr>
+            </table>
+        </div>
+    </section>
+</body>
+</html>
