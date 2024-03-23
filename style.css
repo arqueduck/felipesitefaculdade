@@ -116,14 +116,10 @@ div.top{
 
 table{
     flex-wrap: wrap;
-    padding: 10px;
+    padding: 2%;
     margin: auto;
     text-align: center;
     font-size: larger;
-}
-
-div.portfolioAr{
-    background-color: rgb(255, 198, 93);
 }
 
 ul{
