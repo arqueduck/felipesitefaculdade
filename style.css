@@ -127,6 +127,8 @@ div.portfolioAr{
 }
 
 ul{
+    padding: 2%;
     font-size: larger;
-    margin-left: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
