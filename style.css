@@ -21,6 +21,7 @@ a.menu{
     font-weight: bold;
     text-align: center;
     transition-duration: 0.2s;
+    flex-basis: 150px;
 }
 
 a.menu:hover{
@@ -45,9 +46,10 @@ img:hover {
 }
 
 header{
-    height: 60px;
     background-color: rgb(231, 153, 8);
     display: flex;
+    flex-wrap: wrap;
+    gap: 1px;
 }
 
 article {
@@ -57,20 +59,19 @@ article {
 
 div.images{
     display: flex;
-    justify-content: space-between;
-    width: 30%;
-    flex-wrap: wrap;
     margin-left: 2%;
     margin-right: 2%;
     margin-top: 0.8%;
+    flex-grow: 1;
+    flex-basis: 250px;
 }
 
 div.imagesText {
-    flex-wrap: wrap;
     display: flex;
-    width: 70%;
+    width: 60%;
     padding: 10px;
     margin: 10px;
+    flex-grow: 1;
 }
 
 h1{
@@ -128,4 +129,11 @@ ul{
     margin-left: 5%;
     margin-right: 10%;
     text-align: justify;
+
+}
+
+article {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1px;
 }
